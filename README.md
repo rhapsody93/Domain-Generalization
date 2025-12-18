@@ -1,6 +1,6 @@
 # Domain-Generalization
 
-DG: Leave One Weather Out
+DG: Leave One Weather Out Framework
 
 Leave One Weather Out is a proposed learning strategy to improve the core problem of traditional DGs, which is a failure to generalize to an unseen environment that has never been seen before. Traditional DG methods learn by simply mixing several weathers, but the performance tends to drop significantly when unlearned weather emerges in the learning stage during real model testing.
 In this study, as shown in Figure 8, each bad weather (fog, rain, snow, sand, night, and cloud) is set as an independent domain, learning with N-1 weather and excluding one weather for model testing.
